@@ -12,6 +12,13 @@ public class Main {
             if (input.equals(":q")) {
                 break;
             }
+            for (int i = 0; i < input.length(); i++) {
+                System.out.println(input.charAt(i));
+                if (i < input.length() - 1) {
+                    System.out.println(",");
+                }
+
+            }
         }
 
     }
